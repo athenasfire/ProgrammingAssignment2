@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The functions can be used together to create and retrieve the
+##   inverse of a matrix
 
-## Write a short comment describing this function
+## Creates a matrix object that also stores its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     
@@ -26,7 +26,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Takes the list created in makeCacheMatrix and
+##   returns the inverse of the matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
